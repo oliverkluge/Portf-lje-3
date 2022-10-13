@@ -4,7 +4,7 @@ const chart = new Chart(inl, {
     data: {
         labels: ['USA🇺🇸', 'Canada🇨🇦', 'France🇫🇷', 'Brazil🇧🇷', 'Germany🇩🇪', 'Denmark🇩🇰'],
         datasets: [{
-            label: 'Invoice Total',
+            label: 'Money spend (Dollars)',
             data: [4667, 2689, 1722, 1677, 1392, 334],
             backgroundColor: 'rgba(0, 0, 0, 0.8)'
         }, {
