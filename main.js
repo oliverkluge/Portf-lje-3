@@ -11,12 +11,24 @@ const chart = new Chart(inl, {
             label: 'Invoice Lines',
             data: [494, 304, 190, 190, 152, 38],
             backgroundColor: 'rgba(50, 150, 150, 0.8)'
-        }]
+        }],
     },
     options: {
         plugins: {
             legend: {
                 position: 'bottom'
+            }
+        },
+        scales: {
+            x: {
+                grid: {
+                    display: false
+                }
+            },
+            y: {
+                grid: {
+                    display: false
+                }
             }
         }
     }
